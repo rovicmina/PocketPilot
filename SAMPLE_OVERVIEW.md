@@ -19,3 +19,7 @@ This repository is intended to showcase the technical implementation approach us
 ## Note
 
 This is a curated sample of the PocketPilot application codebase. The full application contains additional features, functionality, and implementation details that are not included in this public sample.
+
+## License
+
+All Rights Reserved. This repository and its contents are proprietary and confidential. No part of this repository may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the copyright holder.

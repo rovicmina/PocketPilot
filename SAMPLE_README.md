@@ -25,3 +25,7 @@ Screenshots of the application interface can be found in the [promotional-assets
 ---
 
 *Note: This is a sample of the PocketPilot application codebase. The full application contains additional features and functionality.*
+
+## License
+
+All Rights Reserved. This repository and its contents are proprietary and confidential. No part of this repository may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the copyright holder.
