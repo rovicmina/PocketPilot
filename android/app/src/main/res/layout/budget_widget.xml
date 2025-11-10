@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:background="@drawable/widget_background">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PocketPilot"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_blue"
+        android:gravity="center"
+        android:layout_marginBottom="2dp" />
+
+    <!-- Budget vs Expense Side by Side -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp">
+
+        <!-- Budget Side -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Budget"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/budget_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₱500"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_blue" />
+
+        </LinearLayout>
+
+        <!-- Expense Side -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/expenses_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₱0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/error_red" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Spending Percentage -->
+    <TextView
+        android:id="@+id/spending_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0% spent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/success_green"
+        android:gravity="center"
+        android:layout_marginBottom="2dp" />
+
+    <!-- Daily Budgeting Tip -->
+    <TextView
+        android:id="@+id/daily_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Every peso saved is a step towards financial freedom."
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+</LinearLayout>
