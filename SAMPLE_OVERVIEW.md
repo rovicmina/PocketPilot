@@ -2,6 +2,8 @@
 
 This repository contains sample code and screenshots from the PocketPilot personal finance application.
 
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-brightgreen)](https://play.google.com/store/apps/details?id=com.pocketpilot.app&pcampaignid=web_share)
+
 ## Contents
 
 1. [Sample Code](sample-code) - Demonstrates core architecture and implementation patterns

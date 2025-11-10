@@ -2,6 +2,8 @@
 
 This repository contains sample code from the PocketPilot personal finance application.
 
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-brightgreen)](https://play.google.com/store/apps/details?id=com.pocketpilot.app&pcampaignid=web_share)
+
 ## Sample Code Structure
 
 The sample demonstrates:
