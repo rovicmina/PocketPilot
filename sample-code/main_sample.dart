@@ -1,36 +1,33 @@
-import 'package:flutter/material.dart';
+// Sample code demonstrating basic Flutter app structure
+// This is a simplified example for demonstration purposes only
 
 void main() {
-  runApp(const MyApp());
+  // This would typically call runApp() with your app widget
+  // runApp(const MyApp());
+  print('PocketPilot Sample App');
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'PocketPilot Sample',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const SampleHomePage(),
-    );
-  }
+// This would typically be a StatelessWidget or StatefulWidget
+class MyApp {
+  const MyApp();
+  
+  // This would typically return a MaterialApp widget
+  // Widget build(BuildContext context) {
+  //   return MaterialApp(
+  //     title: 'PocketPilot Sample',
+  //     home: SampleHomePage(),
+  //   );
+  // }
 }
 
-class SampleHomePage extends StatelessWidget {
-  const SampleHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('PocketPilot Sample'),
-      ),
-      body: const Center(
-        child: Text('PocketPilot Sample Code'),
-      ),
-    );
-  }
+class SampleHomePage {
+  const SampleHomePage();
+  
+  // This would typically return a Scaffold widget
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //     appBar: AppBar(title: Text('PocketPilot Sample')),
+  //     body: Center(child: Text('Welcome to PocketPilot')),
+  //   );
+  // }
 }

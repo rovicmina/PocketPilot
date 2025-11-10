@@ -1,4 +1,6 @@
-// Sample code demonstrating the data model structure
+// Sample code demonstrating data model structure
+// This is a simplified example for demonstration purposes only
+
 class Budget {
   final String id;
   final double monthlyBudget;
