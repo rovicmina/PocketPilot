@@ -5,7 +5,14 @@ This directory contains screenshots of the PocketPilot application interface.
 ## Contents
 
 - [feature-graphic.png](feature-graphic.png) - Main promotional image
-- Additional screenshots demonstrating key features and UI elements
+- [screenshot-1-dashboard.jpg](screenshot-1-dashboard.jpg) - Main dashboard overview
+- [screenshot-2-dashboard.jpg](screenshot-2-dashboard.jpg) - Dashboard with budgeting tips
+- [screenshot-3-dashboard.jpg](screenshot-3-dashboard.jpg) - Dashboard with spending charts
+- [screenshot-4-calendar.jpg](screenshot-4-calendar.jpg) - Calendar view of expenses
+- [screenshot-5-addreminder.jpg](screenshot-5-addreminder.jpg) - Add reminder interface
+- [screenshot-6-addtransaction.jpg](screenshot-6-addtransaction.jpg) - Add transaction screen
+- [screenshot-7-transactions.jpg](screenshot-7-transactions.jpg) - Transaction history
+- [screenshot-8-budget.jpg](screenshot-8-budget.jpg) - Budget prescription interface
 
 ## Note
 
